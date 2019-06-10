@@ -19,7 +19,23 @@ def game_hash
       ]
 
     },
-    :away => {}
+    :away => {
+      :team_name => "string",
+      :colors => [],
+      :players => [
+        {
+        :number => "",
+        :shoe => "",
+        :points => "",
+        :rebounds => "",
+        :assists => "",
+        :steals => "",
+        :blocks => "",
+        :slam_dunks => ""
+      }
+      ]
+
+    }
   }
 
 #   dictionary = {
