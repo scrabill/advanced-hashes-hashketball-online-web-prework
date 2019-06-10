@@ -20,7 +20,7 @@ def game_hash
 
     },
     :away => {
-      :team_name => "string",
+      :team_name => "Charlotte Hornets",
       :colors => [],
       :players => [
         {
